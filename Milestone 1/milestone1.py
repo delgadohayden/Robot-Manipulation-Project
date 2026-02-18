@@ -28,7 +28,7 @@ def record_pose(xarm, label):
 def main():
     xarm = XArm()
 
-    # Manual Recording Phase
+    # Manual Recording Phase -----------
     print("\nManual Recording Mode")
 
     xarm.home()
@@ -47,9 +47,8 @@ def main():
 
     input("\nPress ENTER to start automated motion.")
 
-    # -------------------------
-    # AUTOMATED EXECUTION
-    # -------------------------
+    # Automated phase -----------
+    
     print("\nAutomated Pick and Place")
 
     xarm.home()
